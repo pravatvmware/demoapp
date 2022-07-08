@@ -16,7 +16,7 @@ metadata:
   name: frontend 
   namespace: stars
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       role: frontend
